@@ -1,4 +1,4 @@
-Prerequisties
+Prerequisites
 - Nodejs installed
 - Local MongoDB installed
 
