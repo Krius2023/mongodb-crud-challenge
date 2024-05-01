@@ -1,0 +1,23 @@
+{
+  "name": "mongodb-testing",
+  "version": "1.0.0",
+  "description": "Creating and Writing test cases to for some mongodb operations",
+  "main": "index.js",
+  "scripts": {
+    "test-author": "jest authors.test.js --config jest.config.js",
+    "test-book": "jest books.test.js --config jest.config.js",
+    "fetch-book": "jest fetchBook.test.js --config jest.config.js",
+    "fetch-author": "jest fetchAuthor.test.js --config jest.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "mongoose": "^8.3.2",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12"
+  }
+}
